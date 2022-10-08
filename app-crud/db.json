@@ -1,0 +1,16 @@
+{
+  "agenda": [
+    {
+      "id": 1,
+      "nome": "Bruno",
+      "telefone": "8598658754",
+      "cidade": "Caucaia"
+    },
+    {
+      "id":2,
+      "nome": "Thalia",
+      "telefone": "8598658754",
+      "cidade":"Caucaia"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Buttonn from "./Button";
 import Input from "./Input";
 
 export default function Thead() {
@@ -10,7 +10,7 @@ export default function Thead() {
                 <th>Telefone</th>
                 <th>CIdade</th>
                 <th>
-                    <Button/>
+                    <Buttonn/>
                 </th>
                 <th>
                     <Input />

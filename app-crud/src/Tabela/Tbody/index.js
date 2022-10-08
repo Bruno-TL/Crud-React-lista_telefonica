@@ -1,10 +1,19 @@
+import { useState, useEffect } from "react";
 
+export default  function Tbody (){
 
-export default  function Tbody ({corpo}){
+        const [lista, setLista] = useState([])
+
+        useEffect( ()=> {
+            fetch('http://localhost:3000/agenda').then(response => response.json())
+            .then(res => setLista(res))
+        },[]) 
+    
+    
     
     return (
         <tbody>
-            {corpo.map( (cada) => (
+            {lista.map( (cada) => (
                 <tr className="table-info border border border-3">
                 <td>{cada.id}</td>
                 <td>{cada.nome}</td>
